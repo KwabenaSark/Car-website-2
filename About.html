@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="rnav" id="rtnav">
+        <a href="index.html" class=" home" accesskey="h">Home</a>
+        <a href="Contact.html" class=" contact" accesskey="c">Contact Us</a>
+        <a href="About.html" class=" about" accesskey="a">About Us</a>
+        <a href="QnA.html" class="QnA" accesskey="q">Q&A</a>
+        <a href="Register.html" class="Register_Online" accesskey="r">Register Online</a>
+        <a href="Drivers.html" class="Drivers" accesskey="o" tabindex="10">Our Drivers</a>
+        <input type="text" class="search" name="search" placeholder="Search..">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+
+    </nav>
+    <div class="container3">
+        <section>
+            <h1>About us</h1>
+        </section>
+
+
+        <div>
+            <img src="images/about.png" alt="vintage car" width="350" height="250">
+            <p class="w1 w">The vintage rally club has been hosting rallys since 1890, <br>we produces exclusive events that bring together:<br> successful businesspeople, affluent business leaders, <br>celebrities, aristocrats, and royalty.<br> VRC has a private members
+                club for the world's finest <br>luxury car collectors.
+
+        </div>
+        <div>
+            <iframe class="yt" width="600" height="250" src="https://www.youtube.com/embed/j2hQ9C0FF4w?start=97" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="w2 w">Video of how our drivers race in the rlly <br>with optimun percising and focus,<br>Driving the rarest and most renowned <br>automobiles in the world is the main focus.<br> In addition to rallies, VRC also organizes some<br> of the world's<br>most
+                prestigious vehicle shows in collaboration with<br> premier luxury and automobile manufacturers.</p>
+
+
+        </div>
+
+        <footer>
+            <a href="https://www.instagram.com/ ">instagram</a>
+            <a href="https://www.facebook.com/ ">facebook </a>
+        </footer>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("rtnav");
+        if (x.className === "rnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "rnav";
+        }
+    }
+</script>
+<noscript></noscript>
+
+</html>

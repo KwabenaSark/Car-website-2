@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drivers</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav class="rnav" id="rtnav">
+        <a href="index.html" class=" home" accesskey="h">Home</a>
+        <a href="Contact.html" class=" contact" accesskey="c">Contact Us</a>
+        <a href="About.html" class=" about" accesskey="a">About Us</a>
+        <a href="QnA.html" class="QnA" accesskey="q">Q&A</a>
+        <a href="Register.html" class="Register_Online" accesskey="r">Register Online</a>
+        <a href="Drivers.html" class="Drivers" accesskey="o" tabindex="10">Our Drivers</a>
+        <input type="text" class="search" name="search" placeholder="Search..">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+
+    </nav>
+
+
+    <div class="container4">
+        <section>
+            <h1>Drivers</h1>
+        </section>
+        <div class="tab Crd">
+            <div><img src="images/d1.png" alt="Bruce ,1st place rally race champion" width="300"></div>
+            <div><img src="images/d2.png" alt="Diana,2nd place rally race winner" width="300"></div>
+            <div><img src="images/d3.png" alt="Harley, 3rd placd rally race winner" width="300"></div>
+        </div>
+
+        <div class="tab Crd">
+            <div>
+                <p>Bruce <br>1st place rally race champion</p>
+            </div>
+            <div>
+                <p>Diana <br>2nd place rally race winner</p>
+            </div>
+            <div>
+                <p>Harly <br>3rd place rally race winner</p>
+            </div>
+        </div>
+
+        <footer>
+            <a href="https://www.instagram.com/ ">instagram</a>
+            <a href="https://www.facebook.com/ ">facebook </a>
+        </footer>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("rtnav");
+        if (x.className === "rnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "rnav";
+        }
+    }
+</script><noscript></noscript>
+
+</html>
